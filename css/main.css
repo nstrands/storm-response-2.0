@@ -4,10 +4,20 @@
    Author's custom styles
    ========================================================================== */
 
+.navbar-brand {
+	padding-top: 3px;
+}
 
+.navbar-brand img {
+	height: 45px;
+}
 
-
-
+.jumbotron {
+    background: url('../img/storm.jpg') no-repeat center center;
+    color: white;
+    text-shadow: black 0.4em 0.4em 0.4em;
+    height: 685px;
+}
 
 
 
