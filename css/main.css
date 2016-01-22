@@ -13,20 +13,40 @@
 }
 
 .jumbotron {
-    background: url('../img/storm.jpg') no-repeat center center;
     color: white;
     text-shadow: black 0.4em 0.4em 0.4em;
-    height: 685px;
+    background-color: white;
+}
+
+.jumbotron img {
+	position: relative;
+}
+
+.jumbotron h1 {
+	position: absolute;
+	top: 50px;
+	
 }
 
 
 
+@media screen and (max-width: 995px) {
+    .jumbotron h1 {
+    	width: 500px;
+    	left: 150px;
+    }
+}
 
+@media screen and (max-width: 700px) {
+    .jumbotron h1 {
+    	
+    	left: 75px;
+    }
+}
 
-
-
-
-
-
-
-
+@media screen and (max-width: 550px) {
+    .jumbotron h1 {
+    	width: 350px;
+    	left: 50px;
+    }
+}
