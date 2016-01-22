@@ -12,6 +12,13 @@
 	height: 45px;
 }
 
+.navbar-right img{
+	position: relative;
+	right: -800px;
+	height: 45px;
+	padding-top: 3px;
+}
+
 .jumbotron {
     color: white;
     text-shadow: black 0.4em 0.4em 0.4em;
@@ -25,21 +32,45 @@
 .jumbotron h1 {
 	position: absolute;
 	top: 50px;
-	
+	padding-left: 20px;
+}
+
+.img-responsive {
+	box-shadow: rgba(0, 0, 0, 0.2) 8px 8px 5px;
+	margin-bottom: 15px;
 }
 
 
+
+@media screen and (max-width: 1200px) {
+    .navbar-right img{
+	position: relative;
+	right: -600px;
+    }
+}
 
 @media screen and (max-width: 995px) {
     .jumbotron h1 {
     	width: 500px;
     	left: 150px;
+    	padding-left: 0;
+    }
+    .navbar-right img{
+	position: relative;
+	right: -400px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .navbar-right img{
+	position: relative;
+	right: -200px;
     }
 }
 
 @media screen and (max-width: 700px) {
     .jumbotron h1 {
-    	
+    	padding-left: 0;
     	left: 75px;
     }
 }
@@ -48,5 +79,16 @@
     .jumbotron h1 {
     	width: 350px;
     	left: 50px;
+    	padding-left: 0;
+    }
+    .navbar-right img{
+	position: relative;
+	right: -100px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navbar-right img{
+    	right: -10px;
     }
 }
